@@ -6654,7 +6654,7 @@ function create_target_filename(version) {
             return `sqlite-tools-win32-x86-${version}.zip`
         // linux versions
         case 'linux':
-            return `sqlite-tools-linux-x86-${version}.zip`
+            return `sqlite-tools-linux-x64-${version}.zip`
         // macos versions
         case 'darwin':
             return `sqlite-tools-osx-x86-${version}.zip`
